@@ -9,10 +9,19 @@ app = Flask(__name__)
 # "pie notation"
 # When we try to browse to the root directory, as indicated by the "/", then Flask triggers the index function underneath and returns the "Hello, World" text.
 @app.route("/")
-
 # a function called "index", which just returns the string, "Hello, World"
 def index():
     return render_template("index.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
 # The word 'main' wrapped in double-underscores (__main__) is the name of the default module in Python.
 if __name__ == "__main__":
     app.run(
