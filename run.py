@@ -22,6 +22,11 @@ def about():
 def contact():
     return render_template("contact.html")
 
+
+@app.route("/careers")
+def careers():
+    return render_template("careers.html")    
+
 # The word 'main' wrapped in double-underscores (__main__) is the name of the default module in Python.
 if __name__ == "__main__":
     app.run(
