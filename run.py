@@ -1,5 +1,5 @@
 import os
-from flask import Flask
+from flask import Flask, render_template
 
 # create an instance of this class
 # The first argument of the Flask class, is the name of the application's module - our package.
@@ -12,10 +12,11 @@ app = Flask(__name__)
 
 # a function called "index", which just returns the string, "Hello, World"
 def index():
-    return "Hello, World"
+    return render_template("index.html")
 # The word 'main' wrapped in double-underscores (__main__) is the name of the default module in Python.
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0, 0, 0, 0"),
         port=int(os.environ.get("PORT", "5000")),
+        # Never have debug=True in submission of project
         debug=True)
