@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Edson Arantes do Nascimento", 
+        "description": "Pelé, byname of Edson Arantes do Nascimento, (born October 23, 1940, Três Corações, Brazil), Brazilian football (soccer) player, in his time probably the most famous and possibly the best-paid athlete in the world. He was part of the Brazilian national teams that won three World Cup championships (1958, 1962 and 1970).",
+        "image_source": "https://cdn.images.express.co.uk/img/dynamic/galleries/x701/75592.jpg"
+    },
+    {
+        "name": "George Best", 
+        "description": "George Best, (born May 22, 1946, Belfast, Northern Ireland—died November 25, 2005, London, England), Irish-born football (soccer) player who was one of the premier forwards in the game’s history and a fashionable playboy off the field. The stylish Best became one of the iconic figures of “Swinging London” during the 1960s.",
+        "image_source": "https://external-preview.redd.it/Osj33oBY1umUsPB3U4omCJJECNnGsb2a5OwIVNh59SM.jpg?width=640&crop=smart&auto=webp&s=6c814207a851626b1f9286c1cd416e210b4d9d2f"
+    },
+    {
+        "name": "Diego Maradona",
+        "description": "Diego Maradona, in full Diego Armando Maradona, (born October 30, 1960, Lanus, Buenos Aires, Argentina—died November 25, 2020, Tigre, Buenos Aires), Argentine football (soccer) player who is generally regarded as the top footballer of the 1980s and one of the greatest of all time. Renowned for his ability to control the ball and create scoring opportunities for himself and others, he led club teams to championships in Argentina, Italy, and Spain, and he starred on the Argentine national team that won the 1986 World Cup.",
+        "image_source": "https://firstsportz.com/wp-content/uploads/2020/11/diego-maradona-1024x679.jpeg"
+    },
+    {
+        "name": "Cristiano Ronaldo",
+        "description": "Cristiano Ronaldo, in full Cristiano Ronaldo dos Santos Aveiro, (born February 5, 1985, Funchal, Madeira, Portugal), Portuguese football (soccer) forward who was one of the greatest players of his generation.",
+        "image_source": "https://therealchamps.com/wp-content/uploads/getty-images/2018/08/960263128.jpeg"
+    },
+    {
+        "name": "Lionel Messi",
+        "description": "Lionel Messi, in full Lionel Andrés Messi, also called Leo Messi, (born June 24, 1987, Rosario, Argentina), Argentine-born football (soccer) player who was named Fédération Internationale de Football Association (FIFA) world player of the year five times (2009–12 and 2015).",
+        "image_source": "https://weallfollowunited.com/wp-content/uploads/2021/08/Post-Image-1-scaled.jpg"
+    },
+    {
+        "name": "Ronaldo de Assis Moreira",
+        "description": "Brazilian soccer star Ronaldinho came from a family of soccer players to reach the pinnacle of success in the sport. After a celebrated youth career, Ronaldinho became a key member of the Brazilian team that won the 2002 World Cup. He has played for clubs in Brazil, France, Spain and Italy, and has twice been named FIFA World Player of the Year.",
+        "image_source": "https://ananova.news/wp-content/uploads/2019/10/Golders-RonaldinhoBlame-01.jpg"  
+    },
+    {
+        "name": "Zinedine Zidane",
+        "description": "Zinedine Zidane was born on June 23, 1972, in Marseille, France. A three-time FIFA World Player of the Year, Zidane led France to victory in the 1998 World Cup and starred for clubs in France, Italy and Spain. His career ended in shocking fashion when he was expelled from the 2006 World Cup final for headbutting an opponent, though he remains regarded as one of the sport's all-time greats. Zidane took over as manager of Real Madrid in 2016, and went on to win three consecutive Champions League titles with the club.",
+        "image_source": "https://www.sportingferret.com/wp-content/uploads/2021/06/Zinedine-Zidane.jpeg"  
+    },
+    {
+        "name": "Paul Gascoigne",
+        "description": "Paul John Gascoigne (/ˈɡæskɔɪn/, born 27 May 1967), nicknamed Gazza, is an English former professional footballer who played as an attacking midfielder.[2] He is described by the National Football Museum as widely recognised as the most naturally talented English footballer of his generation.",
+        "image_source": "https://www.themag.co.uk/assets/paul-gascoigne-bw-newcastle-united-nufc-650x400-1.jpg"  
+    }
+]

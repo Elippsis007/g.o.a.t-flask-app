@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h2>{{ page_title }}</h2>
+    <p>
+        Football,  the greatest game. A sport that has produced the most impressive athletes
+        admired world-wide. Football is the home of the best sports in fans in the world. As 
+        the beautiful game had evolved over the years there has been some players who have really
+        stood out.
+        Let's have a look...
+    </p>
+
+    {% for footballer in company %}
+
+        <div class="row featurette mt-5">
+            <div class="col-md-7">
+                <h3>{{ footballer.name }}</h3>
+                <p>
+                    {{ footballer.description }}
+                </p>
+            </div>
+
+            <div class="col-md-5">
+                <img src="{{ footballer.image_source }}" alt="Pele" class="featurette-image image-responsive">
+            </div>
+        </div>
+
+        <hr class="featurrete-divider">
+
+    {% endfor %}
+
+{% endblock %}
