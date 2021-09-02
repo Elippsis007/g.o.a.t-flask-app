@@ -10,22 +10,36 @@
         Let's have a look at who they are...
     </p>
 
-    {% for footballers in company %}
+{% for player in team %}
 
-        <div class="row featurette mt-5">
+    <div class="row featurette mt-5">
+
+        {% if loop.index % 2 != 0 %}
+
             <div class="col-md-7">
-                <h3>{{ company.name }}</h3>
-                <p>
-                    {{ company.description }}
-                </p>
+                <h3><a href="/goat/{{ player.url }}"> {{ loop.index }}. {{ player.name }}</a></h3>
+                <p>{{ player.description }}</p>
             </div>
+            <div class="col-md-5">
+                <img src="{{ player.image_source }}" alt="" class="featurette-image image-responsive">
+            </div>
+
+        {% else %}
 
             <div class="col-md-5">
-                <img src="{{ company.image_source }}" alt="Pele" class="featurette-image image-responsive">
+                <img src="{{ player.image_source }}" alt="" class="featurette-image image-responsive">
             </div>
-        </div>
+            <div class="col-md-7">
+                <h3><a href="/goat/{{ player.url }}">{{ loop.index }}. {{ player.name }}</a></h3>
+                <p>{{ player.description }}</p>
+            </div>
+        
 
-        {% if loop.index != 8 %}
+        {% endif %}
+
+    </div>
+
+        {% if loop.index != loop.length %}
 
             <hr class="featurette-divider">
 
