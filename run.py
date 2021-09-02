@@ -17,9 +17,9 @@ def index():
 @app.route("/goat")
 def goat():
     data = []
-    with open("data/footballer.json", "r") as json_data:
+    with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("goat.html", page_title="Greatest Of All Time", footballer=data)
+    return render_template("goat.html", page_title="Greatest Of All Time", company=data)
 
 
 @app.route("/contact")

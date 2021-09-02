@@ -10,22 +10,26 @@
         Let's have a look at who they are...
     </p>
 
-    {% for footballers in footballer %}
+    {% for footballers in company %}
 
         <div class="row featurette mt-5">
             <div class="col-md-7">
-                <h3>{{ footballer.name }}</h3>
+                <h3>{{ company.name }}</h3>
                 <p>
-                    {{ footballer.description }}
+                    {{ company.description }}
                 </p>
             </div>
 
             <div class="col-md-5">
-                <img src="{{ footballer.image_source }}" alt="Pele" class="featurette-image image-responsive">
+                <img src="{{ company.image_source }}" alt="Pele" class="featurette-image image-responsive">
             </div>
         </div>
 
-        <hr class="featurrete-divider">
+        {% if loop.index != 8 %}
+
+            <hr class="featurette-divider">
+
+        {% endif %}
 
     {% endfor %}
 
